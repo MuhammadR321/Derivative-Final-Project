@@ -1,6 +1,6 @@
 #
-# Makefile for Project XYZ
-# RENAME XYZ for your project
+# Makefile for Derivative Project
+# Derivative Project
 #
 # The Build Rules for This Program
 #
