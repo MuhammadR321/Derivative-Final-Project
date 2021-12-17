@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include "Derivative.h"
 
-int main (void) {
+void runDerivative (void) {
   //**Stores the value for which type of function the user wishes to differentiate.**// -Tausif
   printf("Enter the type of function you wish to differentiate. \n  KEY: 1 for 'Linear', 2 for 'Binomial', 3 for 'Trinomial'\n"); 
   //**Gives the user a key for choosing different function types they wish to differentiate. **// -Tausif
@@ -79,7 +79,7 @@ int main (void) {
     for(int k=0;k<6;k++) {
       printf("Enter array value to replace %s:\t", placeholders3[k]);
       scanf("%f", &trinomvals[k]);
-      //**Makes the user input a value to replace the variables in placeholders[~] **// -Tausif
+      //**Makes the user input a value to replace the variables in placeholders[~] **// -Muhammad
     }
 
     for(int k=0;k<6; k++) {
